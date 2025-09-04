@@ -1,10 +1,17 @@
 <Project>
   <PropertyGroup>
+    <AvaloniaVersion>11.3.5</AvaloniaVersion>
     <PrismVersion>9.0.537</PrismVersion>
     <PrismAvaloniaVersion>9.0.537.11130</PrismAvaloniaVersion>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageVersion Include="Avalonia" Version="$(AvaloniaVersion)" />
+    <PackageVersion Include="Avalonia.Desktop" Version="$(AvaloniaVersion)" />
+    <PackageVersion Include="Avalonia.Diagnostics" Version="$(AvaloniaVersion)" />
+    <PackageVersion Include="Avalonia.Themes.Fluent" Version="$(AvaloniaVersion)" />
+    <PackageVersion Include="Avalonia.Themes.Simple" Version="$(AvaloniaVersion)" />
+
     <PackageVersion Include="Prism.Core" Version="$(PrismVersion)" />
     <PackageVersion Include="Prism.Avalonia" Version="$(PrismAvaloniaVersion)" />
     <PackageVersion Include="Prism.DryIoc.Avalonia" Version="$(PrismAvaloniaVersion)" />

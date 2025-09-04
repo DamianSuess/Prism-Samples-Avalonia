@@ -297,44 +297,9 @@ FakesAssemblies/
 # GhostDoc plugin setting file
 *.GhostDoc.xml
 
-# Node.js Tools for Visual Studio
-.ntvs_analysis.dat
-node_modules/
-
-# Visual Studio 6 build log
-*.plg
-
-# Visual Studio 6 workspace options file
-*.opt
-
-# Visual Studio 6 auto-generated workspace file (contains which files were open etc.)
-*.vbw
-
-# Visual Studio 6 auto-generated project file (contains which files were open etc.)
-*.vbp
-
-# Visual Studio 6 workspace and project file (working project files containing files to include in project)
-*.dsw
-*.dsp
-
-# Visual Studio 6 technical files
-*.ncb
-*.aps
-
-# Visual Studio LightSwitch build output
-**/*.HTMLClient/GeneratedArtifacts
-**/*.DesktopClient/GeneratedArtifacts
-**/*.DesktopClient/ModelManifest.xml
-**/*.Server/GeneratedArtifacts
-**/*.Server/ModelManifest.xml
-_Pvt_Extensions
-
 # Paket dependency manager
 **/.paket/paket.exe
 paket-files/
-
-# FAKE - F# Make
-**/.fake/
 
 # CodeRush personal settings
 **/.cr/personal
@@ -347,18 +312,6 @@ paket-files/
 #tools/**
 #!tools/packages.config
 
-# Tabs Studio
-*.tss
-
-# Telerik's JustMock configuration file
-*.jmconfig
-
-# BizTalk build output
-*.btp.cs
-*.btm.cs
-*.odx.cs
-*.xsd.cs
-
 # OpenCover UI analysis results
 OpenCover/
 
@@ -368,15 +321,6 @@ ASALocalRun/
 # MSBuild Binary and Structured Log
 *.binlog
 MSBuild_Logs/
-
-# AWS SAM Build and Temporary Artifacts folder
-.aws-sam
-
-# NVidia Nsight GPU debugger configuration file
-*.nvuser
-
-# MFractors (Xamarin productivity tool) working folder
-**/.mfractor/
 
 # Local History for Visual Studio
 **/.localhistory/
@@ -416,3 +360,6 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# 3rd-Party tools folder
+[Tt]ools/
