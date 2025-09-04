@@ -1,0 +1,12 @@
+<Project>
+  <PropertyGroup>
+    <PrismVersion>9.0.537</PrismVersion>
+    <PrismAvaloniaVersion>9.0.537.11130</PrismAvaloniaVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageVersion Include="Prism.Core" Version="$(PrismVersion)" />
+    <PackageVersion Include="Prism.Avalonia" Version="$(PrismAvaloniaVersion)" />
+    <PackageVersion Include="Prism.DryIoc.Avalonia" Version="$(PrismAvaloniaVersion)" />
+  </ItemGroup>
+</Project>
